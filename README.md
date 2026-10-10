@@ -1,9 +1,13 @@
-Project Overview:
+**Project Overview:**
+
+
 App Insights Unlocked: A Data Analytics Challenge is a Tableau analysis of the Google Play Store dataset. The project explores app ratings, categories, installs, reviews, app size, content ratings, genres, pricing, and update activity to understand what characteristics are associated with app popularity and user engagement.
 
 The analysis covers 10,841 app records across 34 categories and uses multiple levels of analysis, from basic descriptive questions to deeper comparisons and relationship analysis.
 
-Objectives:
+**Objectives:**
+
+
 Analyze the overall distribution of app ratings.
 Identify the most common app categories and content ratings.
 Identify the most installed and highly reviewed apps.
@@ -30,11 +34,13 @@ Binned analysis
 Top-N analysis
 Aggregation using AVG, COUNT, MAX, etc.
 
-Data Preparation & Process:
+**Data Preparation & Process:**
+
+
 The raw dataset contained fields such as App, Category, Rating, Reviews, Size, Installs, Type, Price, Content Rating, Genres, and Last Updated.
 Several calculated fields were created to make the data suitable for analysis.
 
-Installs Numeric:
+**Installs Numeric:**
 
 INT(REPLACE(REPLACE([Installs], ",", ""), "+", ""))
 
@@ -64,14 +70,24 @@ A numeric price field was also created to support paid-app analysis.
 
 The analysis was then divided into Basic, Medium, and Advanced questions covering distributions, comparisons, relationships, and popularity analysis.
 
-Key Insights:
+**Key Insights:**
+
 The dataset contains 34 distinct app categories.
+
 Everyone is the most common content-rating group.
+
 Subway Surfers is among the most installed applications, with several Google applications also appearing among the highest-install apps.
+
 Free applications overwhelmingly dominate the Google Play Store dataset compared with paid applications.
+
 568 apps have ratings of 4.0 or above in the completed analysis.
+
 GAME applications have the highest average size among the major categories analyzed.
+
 A large number of applications were updated in 2018, making it a particularly active year in the dataset.
+
 The analysis of Size vs Installs shows a slight positive relationship, but app size alone does not strongly explain installation volume.
+
 Rating and install volume do not show a strong direct relationship, indicating that popularity is influenced by factors beyond rating.
+
 The analysis of genres, content ratings, installs, reviews, and app type helps distinguish between user satisfaction and market popularity.
