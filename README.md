@@ -86,3 +86,13 @@ The analysis was then divided into **Basic, Medium, and Advanced** questions cov
 
 ## Key Insights
 
+1. The dataset contains **34 distinct app categories**.
+2. **Everyone** is the most common content-rating group.
+3. **Subway Surfers** is among the most installed applications, with several Google applications also appearing among the highest-install apps.
+4. Free applications overwhelmingly dominate the Google Play Store dataset compared with paid applications.
+5. **568 apps** have ratings of 4.0 or above in the completed analysis.
+6. GAME applications have the highest average size among the major categories analyzed.
+7. A large number of applications were updated in **2018**, making it a particularly active year in the dataset.
+8. The analysis of Size vs Installs shows a slight positive relationship, but app size alone does not strongly explain installation volume.
+9. Rating and install volume do not show a strong direct relationship, indicating that popularity is influenced by factors beyond rating.
+10. The analysis of genres, content ratings, installs, reviews, and app type helps distinguish between user satisfaction and market popularity.
